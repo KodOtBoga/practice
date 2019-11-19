@@ -1,0 +1,824 @@
+1) #include <iostream>
+
+using namespace std;
+
+int main()
+{
+  cout << "Silence is golden";
+}
+
+2) #include <iostream>
+
+using namespace std;
+
+int main()
+{
+  cout << "Понедельник" << endl;
+  cout << "Ноябрь" << endl;
+  cout << "Сабит" << endl;
+}
+
+3) #include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int x;
+  for(int a = 1; a <= 5; a++)
+  {
+      x = 1;
+      while( x <= a)
+      {
+          cout << 0;
+          x++;
+      }
+      cout << endl;
+  }
+}
+
+4)#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int x;
+  for(int a = 1; a <= 5; a++)
+  {
+      cout << "A" <<  "A" << "A" << "A" << "A" << "A" << "A" << "A" << endl;
+  }
+}
+
+5) #include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout << "W" << "     " << "W" << "     " << "W" << endl;
+    cout << " "<< "W" << "   " << "W" << " " << "W" << "   " << "W" << endl;
+    cout << "  "<< "W" << " " << "W" << "   " << "W" << " " << "W" << endl;
+    cout << "   "<< "W" << "     " << "W" << endl;
+}
+
+
+6) #include <iostream>
+
+using namespace std;
+
+int main()
+{
+   cout << 1 + 2 - 4 << endl;
+}
+
+7)
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    double ans = 0.75;
+    double answer = (100/2 + 100/4)/100;
+   cout << ans << " " <<answer << endl;
+} 
+
+P.S. There are problem in Internet compilator
+
+8) using namespace std;
+int main()
+{
+  double a=2;
+  double b=3;
+  double result;
+  result = (a+4*b)*(a-3*b)+a*a;
+  cout<<result;
+}
+
+9) #include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+   int x = -2;
+   int sec = 1;
+   for(int a = 1; a<= 5; a++)
+   {
+       sec = sec * x;
+   }
+   int ans = abs(x) + sec;
+   cout << ans << endl;
+}
+
+10)#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   double x1 = 1.7;
+   double answ1 = (x1+1)*(x1+1)+3*(x1+1);
+   cout << answ1 << endl;
+   
+   double x2 = 3;
+   double answ2 = (x2+1)*(x2+1)+3*(x2+1);
+   cout << answ2;
+}
+
+
+11)#include <iostream>
+#include <cmath>
+using namespace std;
+int main () {
+    double x=-2.34;
+    double result;
+    result=((abs(x-5)-sin(x))/3)+sqrt(x*x+2014)*cos(2*x)-3;
+    cout<<result;
+    }
+
+12) #include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+   double x = 3.6;
+   double sec = x-2;
+   double answer = exp(sec)+abs(sin(x))-x*x*x*x*cos(1/x);
+   cout << answer << endl;
+}
+
+13)#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+    double a = 0.1;
+    double b = 0.2;
+    double x = 1;
+    
+    double per = pow((x*x + b), 1.0 / 5);
+    double vto = ((b * b * pow(sin(x+a), 3))/x);
+    double answ = per - vto;
+    cout << answ << endl;
+}
+
+14) #include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+    double a;
+    double b;
+    cin >> a;
+    cin >> b;
+    cout << a + b << endl;
+    cout << a * b << endl;
+}
+
+15)#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+    double a;
+    cin >> a;
+    cout << a*a << endl;
+    cout << a*a*a << endl;
+}
+
+16) #include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+    double a, b, c;
+    cin >> a;
+    cin >> b;
+    cin >> c;
+    a = a * 2;
+    b -= 3;
+    c = c * c;
+    cout << a + b + c << endl;
+
+}
+
+17) #include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+    double a, b, c;
+    cin >> a;
+    cin >> b;
+    cin >> c;
+    cout << (a + b + c) / 3 << endl;
+    cout << 2 * (a + c) - 3 * b << endl;
+}
+
+18) #include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+    double a;
+    cin >> a;
+    
+    cout << a * 4 << endl;
+    cout << a * a << endl;
+}
+
+19) #include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+    double a, b;
+    cin >> a;
+    cin >> b;
+    
+    cout << 0.3 * a + 0.4 * b << endl;
+    cout << 3 * (2 * b + 1.8 * a) << endl;
+}
+
+20) #include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+    double a, b;
+    cin >> a;
+    cin >> b;
+    
+    a = a * 60;
+    b = b * 1000;
+    cout << b / a << endl;
+}
+
+21) #include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    double a, b, c;
+    cin >> a;
+    cin >> b;
+    c = sqrt(a * a + b * b);
+    cout << (a * b) / 2 << endl;
+    cout << a + b + c << endl;
+    cout << c << endl;
+}
+
+22) #include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+    double a;
+    cin >> a;
+    cout << (a * 9 / 5) + 32 << endl;
+}
+
+23) #include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+    double a, b, c, d;
+    cin >> a;
+    cin >> b;
+    cin >> c;
+    cin >> d;
+    cout << b * c << endl;
+    cout << d / b << endl;
+}
+
+24) #include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+    int day,sum;
+    cin >> day;
+    cin >> sum;
+    double skid;
+    cin >> skid;
+    double total = 0;
+    for( int b = 0; b < day; b++)
+    {
+      total = total + (sum + 3 * b) * ((100 - skid)/100);  
+    }
+    cout << total;
+}
+
+25) #include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+    int week, month, year;
+    cin >> week;
+    cin >> month;
+    cin >> year;
+    
+    cout << week * 7 + month * 30 + year * 365 << endl;
+}
+
+26) #include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+    int a, b, c;
+    cin >> a >> b;
+    c = a;
+    a = b;
+    b = c;
+    
+    cout <<a << " " << b << endl;
+}
+
+27) #include <iostream>
+using namespace std;
+
+int main(){
+	int x , y , z;
+	
+	cin >> x >> y >> z;
+	
+	int a , b , c;
+	
+	a = x ; b = y; c = z;
+	
+	x = a + b;
+	y = c - a;
+	z = a + b + c;
+	
+	cout << x << " " << y << " " << z;
+	
+	return 0;
+}
+
+28) #include <iostream>
+using namespace std;
+int main()
+{
+    double x,y;
+    double z;
+    cin >> x >> y;
+    z=y/100;
+    for (int i = 0; i<5; i++){
+        x*=(1+z);
+    }
+    cout <<x;
+}
+
+int main()
+{
+    double a,b,d;
+    double c;
+    cin >> a >> b;
+    c=b/100;
+    d=a*c;
+    for(int i = 0; i<5 ; i++){
+        a+=d;
+    }
+    cout <<a;
+}
+
+29)#include <iostream>
+#include <algorithm>
+using namespace std;
+
+int main(){
+	
+	int a , b;
+	cin >> a >> b;
+	swap( a , b);
+	cout << a << " " <<  b;
+	return 0;
+}
+
+30) #include <iostream>
+using namespace std;
+
+int main()
+{
+    int a;
+    cin >> a;
+    a = a * a;
+    a = a * a;
+    cout << a;
+}
+
+//int main()
+//{
+//    int a;
+//    cin >> a;
+//    a = a * a * a;
+//    a = a * a;
+//    cout << a;
+//}
+//
+//int main()
+//{
+//    int a , b;
+//    b = a * a * a;
+//    a = b * b; 
+//    a = b * a * a;
+//    cout << a;
+//}
+
+31) #include <iostream>
+using namespace std;
+
+int main(){
+	
+	int a = 647 , b = 170;
+	
+	int c = (647 * 170) / 900;
+	
+	cout << c;
+	
+	return 0;
+}
+
+32) #include <iostream>
+using namespace std;
+
+int main(){
+	
+	int a , b = 237 , c;
+    c = b / 100;
+    a = (b - 100 * c) * 10 + c;
+    cout << a;
+	return 0;
+}
+
+33) #include <iostream>
+#include <cmath>
+using namespace std;
+
+int main(){
+	
+	double x , y;
+	cin >> x >> y;
+	
+	double z = sqrt(x - sqrt(y));
+	
+	if ( z >= 0) cout << z;
+	else cout << "NO ROOTS";
+	
+	return 0;
+}
+
+34) #include <iostream>
+using namespace std;
+
+int main(){
+	int x;
+	cin >> x;
+	
+	if ( x > 3)	cout << x + 10;
+	else cout << x - 10;
+	
+	return 0;
+}
+
+35) #include <iostream>
+using namespace std;
+
+int main(){
+	int x;
+	cin >> x;
+	
+	if ( x > 3)	cout << x + 10;
+	else cout << x - 10;
+	
+	return 0;
+}
+
+36) #include <iostream>
+using namespace std;
+
+int main(){
+	
+	int x;
+	cin >> x;
+	
+	switch(x){
+		case 1:
+			cout << "January";
+			break;
+		case 2:
+			cout << "Febuary";
+			break;
+		case 3:
+			cout << "March";
+			break;
+		case 4:
+			cout << "April";
+			break;
+		case 5:
+			cout << "May";
+			break;
+		case 6:
+			cout << "June";
+			break;
+		case 7:
+			cout << "July";
+			break;
+		case 8:
+			cout << "August";
+			break;
+		case 9:
+			cout << "September";
+			break;
+		case 10:
+			cout << "October";
+			break;
+		case 11:
+			cout << "November";
+			break;
+		case 12:
+			cout << "December";
+			break;
+		default :
+			cout << "Error";
+			break;
+	}
+	return 0;
+}
+
+37)#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main(){
+	
+	int x , y;
+	cin >> x >> y;
+	
+	cout << max(x , y);
+	
+	return 0;
+}
+
+38)#include <iostream>
+using namespace std;
+
+int main(){
+	
+	int x , y;
+	cin >> x >> y;
+	
+	if( x - y == 100 || x - y == -100)  cout << "Yes";
+	else cout << "No";
+	
+	return 0;
+}
+
+39)#include <iostream>
+#include <algorithm>
+using namespace std;
+
+int main(){
+	
+	int x  , y; 
+	cin >> x >> y;
+	
+	if ( x > y) cout << "Yes";
+	else{
+		swap(x , y);
+		cout << x <<" "<< y;
+	}
+	
+	return 0;
+}
+
+40)#include <iostream>
+using namespace std;
+
+int main(){
+	
+	int x;
+	cin >> x;
+	
+	if ( x >= -10 && x <= 10) cout << x + 5;
+	else cout << x - 10;
+	
+	return 0;
+}
+
+41)#include <iostream>
+using namespace std;
+
+int main(){
+	
+	int a;
+    cin >> a;
+    if (a > 100 || a < -100)
+    a = 0;
+    else a += 1;
+    cout << a;
+	
+	return 0;
+}
+
+42)#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int a;
+    cin >> a;
+    if (a >= 2 && a <= 5){
+	cout <<a+10;
+	}
+    else if (a >= 7 && a <= 40){
+	cout <<a-100;
+	}
+    else if (a <= 0 || a > 3000){
+	cout << a * 3;
+	}
+    else {
+	a = 0; cout << a;
+	}
+	return 0;
+}
+
+43)#include <iostream>
+using namespace std;
+
+int main(){
+	
+	int x;
+	cin >> x;
+	
+	switch(x){
+		case 12:
+		case 1:
+		case 2:
+			cout << "Winter";
+			break;
+		case 3:
+		case 4:
+		case 5:
+			cout << "Spring";
+			break;
+		case 6:
+		case 7:
+		case 8:
+			cout << "Summer";
+			break;
+		case 9:
+		case 10:
+		case 11:
+			cout << "Autumn";
+			break;
+		default:
+			cout << "Error";
+	}
+	return 0;
+}
+
+44)#include <iostream>
+using namespace std;
+
+int main(){
+	
+	int x , y;
+	cin >> x >> y;
+	
+	if( x != 10 && y != 10 && x % 2 == 0){
+		cout << x + y;
+	}
+	else cout << x * y;
+	
+	return 0;
+}
+
+45)#include <iostream>
+using namespace std;
+
+int main(){
+	
+	int x , y , z;
+	cin >> x >> y >> z;
+	
+	if ( x > 10 && y > 10 && z > 10 && x % 3 == 0 && y % 3 == 0) cout << "Yes";
+	else cout << "No";
+	
+	return 0;
+}
+
+46)#include <iostream>
+using namespace std;
+
+int main(){
+	
+	int  x , y , z , sum = 0;
+	bool check = false;
+	cin >> x >> y >> z;
+	
+	
+	if ( x % 5 == 0){
+	sum += x;
+	check = true;
+	}
+	else 
+	if ( y % 5 == 0){
+	sum += y;
+	check = true;
+	}
+	if ( z % 5 == 0) {
+	sum += z;
+	check = true;
+	}
+	
+	if(check) cout << sum;
+	else cout << "Error";
+	
+	return 0;
+}
+
+47)#include <iostream>
+#include <algorithm>
+using namespace std;
+
+int main(){
+	
+	int x , y , z;
+	cin >> x >> y >> z;
+	
+	cout << max ( x , max ( y , z));
+	
+	return 0;
+}
+
+48)#include <iostream>
+using namespace std;
+
+int main(){
+	
+	int a , b , c;
+	
+	cin >> a >> b >> c;
+	
+	if ( (a > b && b > c) || (b > a && a > c)) cout << a << " "<< b;
+	else if ( (a > b && c > b) || (c > a && a > b)) cout << a <<" "<< c;
+	else if ( (b > a && c > a) || ( c > b && b > a)) cout << b << " " << c;
+	
+	return 0;
+}
+
+49)#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int a, b, c,d , max;
+    cin >> a>> b>> c >> d;
+    if (a % 2 == 0 || b % 2 ==0 || c % 2 == 0 || d % 2 == 0){
+        if (a % 2 == 0)
+            max = a;
+        if (b % 2 == 0 && b > max)
+            max = b;
+        if (c % 2 == 0 && c > max)
+            max = c;
+        if (d % 2 == 0 && d > max)
+            max = d;
+    }
+    else cout <<"Not found";
+     
+    cout << max;
+}
+
+50)#include <iostream>
+using namespace std;
+
+int main(){
+	
+	int x , y ,z ;
+	
+	cin >> x >> y >> z;
+	
+	if ( x == y || y == z || z == x)
+		cout << "Yes";
+	else cout << "No";
+	
+	return 0;
+}
